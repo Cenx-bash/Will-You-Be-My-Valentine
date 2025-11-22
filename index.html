@@ -1,0 +1,245 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Special Message</title>
+    <link rel="stylesheet" href="styles.css" />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:wght@300;400;600&family=Playfair+Display:wght@400;700&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css"
+    />
+  </head>
+  <body>
+    <!-- Audio Player -->
+    <div class="music-player" id="musicPlayer">
+      <div class="music-info">
+        <span class="song-title">Yakap - Figvres </span>
+        <div class="progress-bar">
+          <div class="progress" id="progress"></div>
+        </div>
+      </div>
+      <div class="music-controls">
+        <button class="control-btn" id="playPauseBtn">
+          <i class="fas fa-play"></i>
+        </button>
+        <button class="control-btn" id="muteBtn">
+          <i class="fas fa-volume-up"></i>
+        </button>
+      </div>
+    </div>
+
+    <!-- Floating Hearts Background -->
+    <div class="hearts-container"></div>
+
+    <!-- Main Content -->
+    <div class="container">
+      <header class="header">
+        <h1 class="title">To Someone Special</h1>
+        <div class="flower-divider">
+          <div class="petal"></div>
+          <div class="petal"></div>
+          <div class="petal"></div>
+          <div class="petal"></div>
+          <div class="petal"></div>
+        </div>
+      </header>
+
+      <main class="content">
+        <section class="message-section">
+          <div class="message-card">
+            <p class="message-text fade-in">
+              Sometimes, the most beautiful things in life are the ones we don't
+              immediately notice...
+            </p>
+
+            <p class="message-text fade-in delay-1">
+              Like the way your smile can light up an entire room, or how your
+              laughter is the most wonderful sound I've ever heard.
+            </p>
+
+            <p class="message-text fade-in delay-2">
+              There's something magical about you that draws me in - your
+              kindness, your intelligence, the way you see the world.
+            </p>
+
+            <p class="message-text fade-in delay-3">
+              I find myself thinking about you at the most random moments,
+              wondering what you're doing, hoping you're happy.
+            </p>
+
+            <p class="message-text fade-in delay-4">
+              This is more than just admiration. It's a feeling that grows
+              stronger every day, a connection I can't ignore.
+            </p>
+
+            <p class="signature fade-in delay-5">
+              With all my heart,<br />
+              <span class="signature-name">Someone who cares</span>
+            </p>
+          </div>
+        </section>
+
+        <section class="memories-section">
+          <h2 class="section-title">Beautiful Memories</h2>
+          <div class="timeline">
+            <div class="timeline-item">
+              <div class="timeline-content">
+                <h3>The First Time</h3>
+                <p>
+                  The moment I first saw you, everything seemed to slow down. It
+                  felt like the world had suddenly become more colorful.
+                </p>
+              </div>
+              <div class="timeline-dot"></div>
+            </div>
+            <div class="timeline-item">
+              <div class="timeline-content">
+                <h3>Your Laughter</h3>
+                <p>
+                  That day I heard you laugh genuinely for the first time - it's
+                  a sound I'll never forget. Music to my ears.
+                </p>
+              </div>
+              <div class="timeline-dot"></div>
+            </div>
+            <div class="timeline-item">
+              <div class="timeline-content">
+                <h3>Small Moments</h3>
+                <p>
+                  All those little interactions, the brief conversations, the
+                  shared glances - they all meant more than you know.
+                </p>
+              </div>
+              <div class="timeline-dot"></div>
+            </div>
+          </div>
+        </section>
+
+        <section class="qualities-section">
+          <h2 class="section-title">What Makes You Special</h2>
+          <div class="qualities-grid">
+            <div class="quality-card">
+              <div class="quality-icon">💫</div>
+              <h3>Your Spark</h3>
+              <p>
+                You have this incredible energy that brightens every room you
+                enter
+              </p>
+            </div>
+            <div class="quality-card">
+              <div class="quality-icon">😊</div>
+              <h3>Your Smile</h3>
+              <p>
+                The way your eyes light up when you smile could melt anyone's
+                heart
+              </p>
+            </div>
+            <div class="quality-card">
+              <div class="quality-icon">🌟</div>
+              <h3>Your Spirit</h3>
+              <p>Your passion and determination inspire everyone around you</p>
+            </div>
+            <div class="quality-card">
+              <div class="quality-icon">❤️</div>
+              <h3>Your Heart</h3>
+              <p>Your kindness and compassion make you truly one of a kind</p>
+            </div>
+          </div>
+        </section>
+
+        <section class="lyrics-section">
+          <h2 class="section-title">Songs That Remind Me of You</h2>
+          <div class="lyrics-card">
+            <div class="song-header">
+              <h3>"Yakap" - Figvres</h3>
+              <span class="playing-indicator" id="playingIndicator">
+                <i class="fas fa-music"></i> Now Playing
+              </span>
+            </div>
+            <div class="lyrics-content">
+              <p class="lyric-line">
+                "And I'd give up everything just to see you happy"
+              </p>
+              <p class="lyric-line">"In your eyes, I see my future"</p>
+              <p class="lyric-line">"You're the color in my blue"</p>
+              <p class="lyric-line">"Every moment with you feels brand new"</p>
+            </div>
+          </div>
+        </section>
+
+        <section class="gallery-section">
+          <h2 class="section-title">Moments I Treasure</h2>
+          <div class="photo-grid">
+            <div class="photo-placeholder">
+              <div class="photo-frame">
+                <div class="photo-content">The way your eyes sparkle</div>
+              </div>
+            </div>
+            <div class="photo-placeholder">
+              <div class="photo-frame">
+                <div class="photo-content">Your contagious laughter</div>
+              </div>
+            </div>
+            <div class="photo-placeholder">
+              <div class="photo-frame">
+                <div class="photo-content">That thoughtful look you get</div>
+              </div>
+            </div>
+          </div>
+        </section>
+      </main>
+
+      <footer class="footer">
+        <p class="footer-text">Made with ❤️ - A secret admirer</p>
+        <div class="social-links">
+          <button class="social-btn" id="messageBtn">
+            <i class="fas fa-envelope"></i>
+          </button>
+          <button class="social-btn" id="heartBtn">
+            <i class="fas fa-heart"></i>
+          </button>
+          <button class="social-btn" id="starBtn">
+            <i class="fas fa-star"></i>
+          </button>
+        </div>
+      </footer>
+    </div>
+
+    <!-- Secret Heart Button -->
+    <button class="secret-heart" id="secretHeart">💖</button>
+
+    <!-- Hidden Message Modal -->
+    <div class="modal" id="secretModal">
+      <div class="modal-content">
+        <span class="close">&times;</span>
+        <h2>Just Between Us</h2>
+        <p>
+          Every day with you in my thoughts feels brighter. I hope this message
+          finds its way to your heart.
+        </p>
+        <p class="secret-message">
+          You are the missing piece I never knew I needed.
+        </p>
+        <div class="floating-hearts-small"></div>
+      </div>
+    </div>
+
+    <!-- Confetti Container -->
+    <div class="confetti-container"></div>
+
+    <audio id="backgroundMusic" loop>
+      <source
+        src="https://youtu.be/OPFmjthC8LY?si=eFDc8t2RahfH5Cuq"
+        type="audio/mpeg"
+      />
+    </audio>
+
+    <script src="script.js"></script>
+  </body>
+  4
+</html>
