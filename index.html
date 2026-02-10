@@ -1,173 +1,257 @@
 <!DOCTYPE html>
 <html lang="en">
-  <head>
-    <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Special Message</title>
-    <link rel="stylesheet" href="styles.css" />
-    <link
-      href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:wght@300;400;600&family=Playfair+Display:wght@400;700&display=swap"
-      rel="stylesheet"
-    />
-    <link
-      rel="stylesheet"
-      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css"
-    />
-  </head>
-  <body>
-    <div class="hearts-container"></div>
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>Will You Be My Valentine? 💘</title>
+	<link rel="stylesheet" href="style.css">
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+	<link href="https://fonts.googleapis.com/css2?family=Dancing+Script:wght@400;700&family=Poppins:wght@300;400;500;600;700&family=Playfair+Display:wght@400;500;600;700&display=swap" rel="stylesheet">
+	<link rel="icon" href="data:image/svg+xml,<svg xmlns=%22http://www.w3.org/2000/svg%22 viewBox=%220 0 100 100%22><text y=%22.9em%22 font-size=%2290%22>💝</text></svg>">
+</head>
+<body>
+<!-- Background Animation -->
+<div class="bg-animation">
+	<div class="stars"></div>
+	<div class="twinkles"></div>
+</div>
 
-    <div class="container">
-      <header class="header">
-        <h1 class="title">To Someone Special</h1>
-        <div class="flower-divider">
-          <div class="petal"></div>
-          <div class="petal"></div>
-          <div class="petal"></div>
-          <div class="petal"></div>
-          <div class="petal"></div>
-        </div>
-      </header>
+<!-- Main Container -->
+<div class="container">
+	<!-- Header -->
+	<header class="header">
+		<div class="date-display">
+			<div class="date-icon">
+				<i class="fas fa-heart"></i>
+			</div>
+			<div class="date-info">
+				<div class="date-day">VALENTINE'S DAY</div>
+				<div class="date-full">February 14, 2026</div>
+			</div>
+		</div>
 
-      <main class="content">
-        <section class="message-section">
-          <div class="message-card">
-            <p class="message-text fade-in">
-              Sometimes, the most beautiful things in life are the ones we don't
-              immediately notice...
-            </p>
+		<h1 class="main-title">
+			<span class="title-line">A Special Question</span>
+			<span class="title-line">For A Special Person</span>
+			<span class="title-line highlight">You</span>
+		</h1>
+	</header>
 
-            <p class="message-text fade-in delay-1">
-              Like the way your smile can light up an entire room, or how your
-              laughter is the most wonderful sound I've ever heard.
-            </p>
+	<!-- Main Content -->
+	<main class="main-content">
+		<!-- Opening Card -->
+		<section class="section opening-card">
+			<div class="envelope">
+				<div class="envelope-top"></div>
+				<div class="envelope-body">
+					<div class="letter">
+						<div class="letter-content">
+							<i class="fas fa-feather-alt"></i>
+							<h3>Dear You,</h3>
+							<p>I've been thinking about this for a while, and I've gathered the courage to ask you something important...</p>
+						</div>
+					</div>
+				</div>
+			</div>
+		</section>
 
-            <p class="message-text fade-in delay-2">
-              There's something magical about you that draws me in - your
-              kindness, your intelligence, the way you see the world.
-            </p>
+		<!-- The Big Question -->
+		<section class="section question-section">
+			<div class="question-card">
+				<div class="question-icon">
+					<i class="fas fa-heart"></i>
+				</div>
 
-            <p class="message-text fade-in delay-3">
-              I find myself thinking about you at the most random moments,
-              wondering what you're doing, hoping you're happy.
-            </p>
+				<h2 class="question-title">
+					Will You Be My Valentine?
+				</h2>
 
-            <p class="message-text fade-in delay-4">
-              This is more than just admiration. It's a feeling that grows
-              stronger every day, a connection I can't ignore.
-            </p>
+				<p class="question-subtitle">
+					Would you go out with me on February 14th?
+				</p>
 
-            <p class="signature fade-in delay-5">
-              With all my heart,<br />
-              <span class="signature-name">Someone who cares</span>
-            </p>
-          </div>
-        </section>
+				<div class="plan-details">
+					<div class="plan-item">
+						<div class="plan-icon">
+							<i class="fas fa-clock"></i>
+						</div>
+						<div class="plan-text">
+							<h4>7:00 PM</h4>
+							<p>A perfect evening</p>
+						</div>
+					</div>
 
-        <section class="memories-section">
-          <h2 class="section-title">Beautiful Memories</h2>
-          <div class="timeline">
-            <div class="timeline-item">
-              <div class="timeline-content">
-                <h3>The First Time</h3>
-                <p>
-                  The moment I first saw you, everything seemed to slow down. It
-                  felt like the world had suddenly become more colorful.
-                </p>
-              </div>
-              <div class="timeline-dot"></div>
-            </div>
-            <div class="timeline-item">
-              <div class="timeline-content">
-                <h3>Your Laughter</h3>
-                <p>
-                  That day I heard you laugh genuinely for the first time - it's
-                  a sound I'll never forget. Music to my ears.
-                </p>
-              </div>
-              <div class="timeline-dot"></div>
-            </div>
-            <div class="timeline-item">
-              <div class="timeline-content">
-                <h3>Small Moments</h3>
-                <p>
-                  All those little interactions, the brief conversations, the
-                  shared glances - they all meant more than you know.
-                </p>
-              </div>
-              <div class="timeline-dot"></div>
-            </div>
-          </div>
-        </section>
+					<div class="plan-item">
+						<div class="plan-icon">
+							<i class="fas fa-utensils"></i>
+						</div>
+						<div class="plan-text">
+							<h4>Dinner & Music</h4>
+							<p>At a nice restaurant</p>
+						</div>
+					</div>
 
-        <section class="qualities-section">
-          <h2 class="section-title">What Makes You Special</h2>
-          <div class="qualities-grid">
-            <div class="quality-card">
-              <div class="quality-icon">💫</div>
-              <h3>Your Spark</h3>
-              <p>
-                You have this incredible energy that brightens every room you
-                enter
-              </p>
-            </div>
-            <div class="quality-card">
-              <div class="quality-icon">😊</div>
-              <h3>Your Smile</h3>
-              <p>
-                The way your eyes light up when you smile could melt anyone's
-                heart
-              </p>
-            </div>
-            <div class="quality-card">
-              <div class="quality-icon">🌟</div>
-              <h3>Your Spirit</h3>
-              <p>Your passion and determination inspire everyone around you</p>
-            </div>
-            <div class="quality-card">
-              <div class="quality-icon">❤️</div>
-              <h3>Your Heart</h3>
-              <p>Your kindness and compassion make you truly one of a kind</p>
-            </div>
-          </div>
-        </section>
-      </main>
+					<div class="plan-item">
+						<div class="plan-icon">
+							<i class="fas fa-star"></i>
+						</div>
+						<div class="plan-text">
+							<h4>Special Moments</h4>
+							<p>Just the two of us</p>
+						</div>
+					</div>
+				</div>
 
-      <footer class="footer">
-        <p class="footer-text">Made with ❤️ - A secret admirer</p>
-        <div class="social-links">
-          <button class="social-btn" id="messageBtn">
-            <i class="fas fa-envelope"></i>
-          </button>
-          <button class="social-btn" id="heartBtn">
-            <i class="fas fa-heart"></i>
-          </button>
-          <button class="social-btn" id="starBtn">
-            <i class="fas fa-star"></i>
-          </button>
-        </div>
-      </footer>
-    </div>
+				<div class="personal-note">
+					<i class="fas fa-quote-left"></i>
+					<p>I promise it will be a wonderful evening filled with good conversation, laughter, and maybe a little magic.</p>
+					<i class="fas fa-quote-right"></i>
+				</div>
+			</div>
+		</section>
 
-    <button class="secret-heart" id="secretHeart">💖</button>
+		<!-- Your Response -->
+		<section class="section response-section">
+			<h3 class="section-heading">
+				<i class="fas fa-reply"></i>
+				Your Answer Please
+			</h3>
 
-    <div class="modal" id="secretModal">
-      <div class="modal-content">
-        <span class="close">&times;</span>
-        <h2>Just Between Us</h2>
-        <p>
-          Every day with you in my thoughts feels brighter. I hope this message
-          finds its way to your heart.
-        </p>
-        <p class="secret-message">
-          You are the missing piece I never knew I needed.
-        </p>
-        <div class="floating-hearts-small"></div>
-      </div>
-    </div>
+			<div class="response-options">
+				<!-- YES Option -->
+				<div class="response-option yes-option" id="yesOption">
+					<div class="option-content">
+						<div class="option-icon">
+							<i class="fas fa-heart-circle-check"></i>
+						</div>
+						<h4 class="option-title">Yes, Absolutely!</h4>
+						<p class="option-desc">I'd love to be your Valentine</p>
+						<button class="option-btn" id="yesBtn">
+							<span>Choose This Answer</span>
+							<i class="fas fa-heart"></i>
+						</button>
+					</div>
+				</div>
 
-    <div class="confetti-container"></div>
+				<!-- MAYBE Option -->
+				<div class="response-option maybe-option" id="maybeOption">
+					<div class="option-content">
+						<div class="option-icon">
+							<i class="fas fa-heart-circle-question"></i>
+						</div>
+						<h4 class="option-title">Maybe / Let's See</h4>
+						<p class="option-desc">We could start with coffee</p>
+						<button class="option-btn" id="maybeBtn">
+							<span>Choose This Answer</span>
+							<i class="fas fa-coffee"></i>
+						</button>
+					</div>
+				</div>
 
-    <script src="script.js"></script>
-  </body>
+				<!-- FRIENDS Option -->
+				<div class="response-option friends-option" id="friendsOption">
+					<div class="option-content">
+						<div class="option-icon">
+							<i class="fas fa-heart-circle-plus"></i>
+						</div>
+						<h4 class="option-title">Let's Be Friends</h4>
+						<p class="option-desc">I value our connection</p>
+						<button class="option-btn" id="friendsBtn">
+							<span>Choose This Answer</span>
+							<i class="fas fa-handshake"></i>
+						</button>
+					</div>
+				</div>
+			</div>
+
+			<!-- Response Display Area -->
+			<div class="response-display" id="responseDisplay">
+				<div class="display-content" id="displayContent">
+					<!-- Response will appear here -->
+				</div>
+			</div>
+		</section>
+
+		<!-- Why I'm Asking You - UPDATED SECTION -->
+		<section class="section reasons-section">
+			<h3 class="section-heading">
+				<i class="fas fa-gem"></i>
+				Why I'm Asking You
+			</h3>
+
+			<div class="reasons-grid">
+				<div class="reason-card">
+					<div class="reason-icon">
+						<i class="fas fa-ring"></i>
+					</div>
+					<h4>Date to Marry</h4>
+					<p>I'm looking for something real and lasting. I want to build a future with someone special.</p>
+				</div>
+
+				<div class="reason-card">
+					<div class="reason-icon">
+						<i class="fas fa-handshake"></i>
+					</div>
+					<h4>Build Trust</h4>
+					<p>I believe in creating a foundation of honesty and reliability that grows stronger every day.</p>
+				</div>
+
+				<div class="reason-card">
+					<div class="reason-icon">
+						<i class="fas fa-seedling"></i>
+					</div>
+					<h4>Grow Side by Side</h4>
+					<p>I want to support each other's dreams and grow together through life's adventures.</p>
+				</div>
+
+				<div class="reason-card">
+					<div class="reason-icon">
+						<i class="fas fa-hands-helping"></i>
+					</div>
+					<h4>Help Each Other</h4>
+					<p>To be partners in everything - celebrating successes and supporting through challenges.</p>
+				</div>
+			</div>
+		</section>
+
+		<!-- Final Message -->
+		<section class="section final-message">
+			<div class="final-card">
+				<h3 class="final-title">
+					<i class="fas fa-heart-circle"></i>
+					No Matter Your Answer
+				</h3>
+
+				<p class="final-text">
+					I asked because I genuinely admire you. You're someone worth taking a chance for.
+					Whatever you decide, I'll respect your choice and always appreciate the amazing person you are.
+				</p>
+
+				<div class="signature">
+					<div class="signature-line"></div>
+					<div class="signature-name">
+						<span>With sincerity,</span>
+						<strong>Zen</strong>
+					</div>
+					<div class="signature-line"></div>
+				</div>
+
+				<div class="final-hearts">
+					<i class="fas fa-heart"></i>
+					<i class="fas fa-heart"></i>
+					<i class="fas fa-heart"></i>
+				</div>
+			</div>
+		</section>
+	</main>
+
+	<!-- Floating Hearts Container -->
+	<div class="floating-hearts" id="floatingHearts"></div>
+</div>
+
+<!-- Confetti Canvas -->
+<canvas id="confettiCanvas"></canvas>
+
+<script src="main.js"></script>
+</body>
 </html>
